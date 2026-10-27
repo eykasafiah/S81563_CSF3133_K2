@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Profile Page</title>
+</head>
+<body>
+
+    <!--Semantic Tag: Header-->
+    <header>
+        <h1>Welcome to My Personal Profile Page</h1>
+    </header>
+
+    <!--Semantic Tag: Nav-->
+    <nav>
+       <a href="#about">About Me</a> 
+        <a href="#profile-data">Profile Table</a> 
+        <a href="#form-section">Contact / User Form</a>
+    </nav>
+
+    <!--Main Content grouped into a Section-->
+    <section>
+
+        <!--Article 1: Profile Table-->
+        <article id="profile-data">
+            <h2>Personal Information</h2>
+            <!--Table Requirement: At least 3 rows and 3 columns-->
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Occupation</th>
+                </tr>
+                <tr>
+                    <td>Nur Aina</td>
+                    <td>22</td>
+                    <td>Student</td>
+                </tr>
+                 <tr>
+                    <td>HAzwani Hazirah</td>
+                    <td>23</td>
+                    <td>IT Support</td>
+                </tr>
+                <tr>
+                    <td>Nabilah Husna</td>
+                    <td>25</td>
+                    <td>Web Developer</td>
+                </tr>
+            </table>
+        </article>
+
+        <!--Article 2: Form Section-->
+        <article id="form-section">
+            <h2>User Registration Form</h2>
+            
+            <!--Form Requirement: Text inputs, radio buttons, checkboxes, submit button-->
+            <form action="submit_form.php" method="post">
+                <!--Text Inputs (Name & Email)-->
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="firstname"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+
+                <!--Radio Buttons (Gender)-->
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <!--Checkboxes (Favorite Hobbies)-->
+                <label>Favorite Hobbies:</label><br>
+                <input type="checkbox" id="hobby1" name="hobby1" value="Reading">
+                <label for="hobby1">Reading</label><br>
+                <input type="checkbox" id="hobby2" name="hobby2" value="Gaming">
+                <label for="hobby2">Gaming</label><br><br>
+
+                <!--Submit Button-->
+                <input type="submit" value="Submit">
+            </form>
+        </article>
+
+    </section>
+
+    <!--Semantic Tag: Footer-->
+    <footer>
+        <p>&copy; 2026 Personal Profile Page. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

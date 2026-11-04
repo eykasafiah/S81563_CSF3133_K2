@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 2. & 3. Header Section (First <div>) -->
+    <div>
+        <!-- Block element for website title -->
+        <h1>Interactive Contact Form & Inline Calculator</h1>
+        <!-- Inline element for subtitle/slogan -->
+        <span>Enhancing User Interactivity with HTML5</span>
+    </div>
+
+    <hr>
+
+    <!-- 2. & 4. Content Section -->
+    <div>
+        <!-- Contact Form using HTML5 elements -->
+        <h2>Contact Form</h2>
+        <form>
+            <!-- Email input -->
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <!-- Date input for preferred contact date -->
+            <label for="contact_date">Preferred Contact Date:</label><br>
+            <input type="date" id="contact_date" name="contact_date"><br><br>
+
+            <!-- Range slider for user satisfaction level -->
+            <label for="satisfaction">Satisfaction Level (0 to 10):</label><br>
+            <input type="range" id="satisfaction" name="satisfaction" min="0" max="10"><br><br>
+
+            <!-- Submit button -->
+            <input type="submit" value="Submit">
+        </form>
+
+        <hr>
+
+        <!-- Inline Calculator (Third <div> inside Content Section) -->
+        <div>
+            <h2>Inline Calculator</h2>
+            <!-- Dynamic calculation using HTML5 <output> element -->
+            <form oninput="result.value = parseFloat(num1.value || 0) + parseFloat(num2.value || 0)">
+                <!-- First input field -->
+                <label for="num1">First Number:</label><br>
+                <input type="number" id="num1" name="num1" value="0"><br><br>
+
+                <!-- Second input field -->
+                <label for="num2">Second Number:</label><br>
+                <input type="number" id="num2" name="num2" value="0"><br><br>
+
+                <!-- Dynamic output element displaying the sum -->
+                <label for="result"><strong>Sum:</strong> </label>
+                <output name="result" for="num1 num2">0</output>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- 2. & 5. Footer Section (Final <div>) -->
+    <div>
+        <!-- Contact info and HTML entity (&copy;) -->
+        <p>Contact Us: support@example.com</p>
+        <p>&copy; 2026 Web-Based Interface Design. All rights reserved.</p>
+    </div>
+</body>
+</html>

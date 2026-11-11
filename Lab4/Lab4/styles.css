@@ -1,0 +1,76 @@
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9fb;
+    color: #4a4a4a;
+    margin: 20px;
+}
+
+/* Header & Navigation Bar */
+header {
+    text-align: center;
+    background-color: #f4acb7;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f4acb7;
+    text-align: center;
+    padding: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+/* Link Hover State */
+ul li a:hover, ul li a:active {
+    background-color: #c8b6ff;
+    color: #ffffff;
+}
+
+/* Topic Decoration */
+h2 {
+    text-decoration: overline;
+    color: #9d8189;
+}
+
+/* Video style */
+video {
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+/* Form simple */
+form {
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #fae1dd;
+}
+
+.lab-form {
+    margin-bottom: 12px;
+}

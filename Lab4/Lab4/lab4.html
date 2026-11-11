@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lab Exercise 4</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        .note-style {
+            font-style: italic;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <h1>✨ Series Watchlist Hub ✨</h1>
+        <nav>
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#form">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Semantic Tag Section & Article -->
+    <section id="main">
+        <article>
+            <h2>Binge Worthy TV shows</h2>
+            <p>Here are some of my ultimate favorite romance and coming-of-age series that you definitely need to watch:</p>
+            <ul>
+                <li><strong>The Summer I Turned Pretty</strong> - Cousins Beach summer romance vibe.</li>
+                <li><strong>My Life with the Walter Boys</strong> - Cozy small-town romance and messy love triangles.</li>
+                <li><strong>XO, Kitty</strong> - Fun and chaotic long-distance romance adventures in Seoul.</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- Insert Video Section -->
+    <section id="media">
+        <h2>Video</h2>
+        <p>Please watch the video below:</p>
+        <video width="400" height="300" controls>
+            <source src="binge.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Interactive Form Section -->
+    <section id="form">
+        <h2>Your Watchlist Survey</h2>
+        <form action="#" method="post">
+            
+            <!-- Name (Text Input) -->
+            <div class="lab-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <!-- Email (Text Input) -->
+            <div class="lab-form">
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email">
+            </div>
+
+            <!-- Gender (Radio Buttons) -->
+            <div class="lab-form">
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+
+            <!-- Favorite Series (Checkboxes) -->
+            <div class="lab-form">
+                <label>Favorite Series:</label><br>
+                <input type="checkbox" id="series1" name="series" value="tsitp">
+                <label for="series1">The Summer I Turned Pretty</label><br>
+                <input type="checkbox" id="series2" name="series" value="walterboys">
+                <label for="series2">My Life with the Walter Boys</label><br>
+                <input type="checkbox" id="series3" name="series" value="xokitty">
+                <label for="series3">XO, Kitty</label>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="lab-form">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Copyright Reserved</p>
+        <address>
+            Contact Us at <a href="mailto:s81563@ocean.umt.edu.my">s81563@ocean.umt.edu.my</a>.
+        </address>
+    </footer>
+
+</body>
+</html>

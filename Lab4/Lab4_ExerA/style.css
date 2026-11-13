@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff9fb;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #f4acb7;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+header h1 {
+    color: #ffffff;
+    text-decoration: overline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f4acb7;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+/* Link States in Correct Order */
+a:link { color: #ffffff; }
+a:visited { color: #f1f1f1; }
+a:hover { background-color: #c8b6ff; color: #ffffff; }
+a:active { background-color: #9d8189; color: #ffffff; }
+
+h2 {
+    text-decoration: underline;
+    color: #9d8189;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #b5838d;
+}
+
+#destinations, #video {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #fae1dd;
+}
+
+.card {
+    background-color: #fdf0f2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.center {
+    text-align: center;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+.new-price {
+    font-weight: bold;
+    color: #d90429;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
+    color: #777777;
+    margin-top: 8px;
+}
+
+.trip-form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #fae1dd;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lab-form {
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    background-color: #f4acb7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    background-color: #c8b6ff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f4acb7;
+    color: white;
+    border-radius: 8px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
